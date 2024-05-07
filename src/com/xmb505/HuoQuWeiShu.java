@@ -11,5 +11,6 @@ public class HuoQuWeiShu {
         System.out.println("个位数是：" + ge);
         System.out.println("十位数是：" + shi);
         System.out.println("百位数是：" + bai);
+        //System.out.println(scannerInput);
     }
 }
