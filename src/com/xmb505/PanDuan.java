@@ -9,8 +9,8 @@ public class PanDuan {
         int ages = inputer.nextInt();
         if (ages == 18) {
             System.out.println("刚满十八岁～");
-        }
-        if (ages != 18) {
+        } 
+        else {
             System.out.println(ages > 18 ? "大了" : "小了");
         }
     }
