@@ -12,6 +12,9 @@ public class PanDuan {
         } 
         else {
             System.out.println(ages > 18 ? "大了" : "小了");
+        if (ages == 31) {
+            System.out.println("我是重音テト");
+        }
         }
     }
 }
