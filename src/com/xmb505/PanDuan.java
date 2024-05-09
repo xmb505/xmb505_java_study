@@ -14,17 +14,12 @@ public class PanDuan {
         else {
             System.out.println(ages > 18 ? "大了" : "小了");
             }
+        //switch简化！JDK12+特性
         switch (ages) {
-            case 16:
-                System.out.println("我是初音未来");
-                break;
-            case 31:
-                System.out.println("我是重音テト");
-            case 24:
-                System.out.println("24岁，是学生");
-            default:
-                System.out.println("你只是一个普通人");
-                break;
+            case 16 -> System.out.println("我是初音未来");
+            case 31 -> System.out.println("我是重音テト");
+            case 24 -> System.out.println("24岁，是学生");
+            default -> System.out.println("你是个普通人");
         }   
         if (ages % 2 == 0) {
             System.out.println("我是双岁");
