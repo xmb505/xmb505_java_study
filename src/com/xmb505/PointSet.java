@@ -76,6 +76,12 @@ public class PointSet {
             }
         }
         System.out.println(tempMax + " " +tempMin);
+        double tempSum = 0;
+        for (int array2 = 0; array2 < array .length; array2++) {
+            tempSum = tempSum + array[array2];
+        }
+        double pingjunshu = (tempSum - tempMax - tempMin) / (array.length - 2);
+        System.out.println(pingjunshu);
     }
 }
 
